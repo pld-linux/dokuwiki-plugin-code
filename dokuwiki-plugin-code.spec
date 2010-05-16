@@ -9,6 +9,7 @@ Source0:	http://dev.mwat.de/dw/syntax_plugin_code.zip
 # Source0-md5:	79c8f4333dd9627f468062ce5309e06f
 Patch0:		%{name}-geshi.patch
 URL:		http://www.dokuwiki.org/plugin:code2
+BuildRequires:	unzip
 Requires:	dokuwiki >= 20050713
 BuildArch:	noarch
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
